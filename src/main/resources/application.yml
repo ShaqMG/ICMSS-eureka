@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: discovery-server
+
+server:
+  port: 7000
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    service-url:
+      defaultZone: ${SERVICE_URL_DEFAULT_ZONE}
+  instance:
+    preferIpAddress: true
+
+
