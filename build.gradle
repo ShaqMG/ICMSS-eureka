@@ -1,7 +1,7 @@
 plugins {
 	id 'java'
-	id 'org.springframework.boot' version '3.2.4'
-	id 'io.spring.dependency-management' version '1.1.4'
+	id 'org.springframework.boot' version '2.7.4'
+	id 'io.spring.dependency-management' version '1.0.14.RELEASE'
 }
 
 group = 'org.ICMSS'
@@ -16,7 +16,7 @@ repositories {
 }
 
 ext {
-	set('springCloudVersion', "2023.0.1")
+	set('springCloudVersion', "2021.0.4")
 }
 
 dependencies {

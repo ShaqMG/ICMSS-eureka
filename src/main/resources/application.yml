@@ -3,14 +3,14 @@ spring:
     name: discovery-server
 
 server:
-  port: 9000
+  port: 9001
 
 eureka:
   client:
     registerWithEureka: false
     fetchRegistry: false
     service-url:
-      defaultZone: ${SERVICE_URL_DEFAULT_ZONE}
+      defaultZone: http://localhost:9001
   instance:
     preferIpAddress: true
 
